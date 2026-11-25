@@ -1,0 +1,11 @@
+archivo,real,pred,confianza,baja_confianza,n_hojas,acierto
+IMG_AEB010.jpg,early blight,early blight,1.0,False,1,True
+IMG_AEB016C.jpg,early blight,early blight,1.0,False,2,True
+IMG_AEB027.jpg,early blight,early blight,1.0,False,2,True
+IMG_AEB028.jpg,early blight,early blight,1.0,False,1,True
+IMG_LB028.jpg,late blight,late blight,0.988,False,4,True
+IMG_LB048.jpg,late blight,late blight,0.82,True,2,True
+IMG_LB063.jpg,late blight,late blight,0.959,False,2,True
+IMG_LB066.jpg,late blight,late blight,1.0,False,2,True
+IMG_PHL015.jpg,healthy,early blight,0.734,True,2,False
+IMG_PHL018.jpg,healthy,healthy,0.948,False,2,True

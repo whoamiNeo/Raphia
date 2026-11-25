@@ -1,0 +1,42 @@
+{
+  "fotos": 60,
+  "aciertos": 56,
+  "tiempos_ms": {
+    "srv_read_ms": {
+      "media": 428.0,
+      "mediana": 256.0,
+      "p95": 1742.0,
+      "mín": 12.0,
+      "máx": 1874.0
+    },
+    "srv_det_ms": {
+      "media": 884.0,
+      "mediana": 874.0,
+      "p95": 977.0,
+      "mín": 766.0,
+      "máx": 1333.0
+    },
+    "srv_cls_ms": {
+      "media": 216.0,
+      "mediana": 195.0,
+      "p95": 312.0,
+      "mín": 90.0,
+      "máx": 410.0
+    },
+    "srv_total_ms": {
+      "media": 1529.0,
+      "mediana": 1369.0,
+      "p95": 2842.0,
+      "mín": 963.0,
+      "máx": 3000.0
+    },
+    "ida_vuelta_ms": {
+      "media": 2548.0,
+      "mediana": 2341.0,
+      "p95": 4133.0,
+      "mín": 1569.0,
+      "máx": 12301.0
+    }
+  },
+  "coincidencia_con_notebook_03": "60/60"
+}
