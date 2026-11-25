@@ -1,0 +1,6 @@
+,aciertos,total,accuracy_%,IC95_%,balanced_accuracy_%,macro_F1
+YOLOv8m + EfficientNet-B2,455,490,92.86,"(90.2, 94.8)",91.81,0.9028
+EfficientNet-B2 sin YOLO,389,490,79.39,"(75.6, 82.7)",82.95,0.7654
+YOLOv8m + EfficientNet-B0,406,490,82.86,"(79.3, 85.9)",85.11,0.7757
+YOLOv8m + ResNet-50,427,490,87.14,"(83.9, 89.8)",90.15,0.8542
+YOLOv8m + MobileNetV3-Large,458,490,93.47,"(90.9, 95.3)",91.13,0.9156

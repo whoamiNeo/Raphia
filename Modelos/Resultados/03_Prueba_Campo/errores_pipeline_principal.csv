@@ -1,0 +1,36 @@
+archivo,real,pred,confianza,n_hojas
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB002.jpg,Late Blight,Early Blight,0.9942302703857422,4
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB005.jpg,Late Blight,Early Blight,0.9008928537368774,3
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB007.jpg,Late Blight,Healthy,0.999852180480957,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB022.jpg,Late Blight,Early Blight,0.9979668259620667,10
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB034.jpg,Late Blight,Healthy,0.8716462254524231,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB044.jpg,Late Blight,Early Blight,0.9366424083709717,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB045.jpg,Late Blight,Early Blight,0.6471338868141174,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB047.jpg,Late Blight,Early Blight,0.9660695791244507,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB069.jpg,Late Blight,Healthy,0.7748737931251526,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB090.jpg,Late Blight,Early Blight,0.9920088052749634,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB094.jpg,Late Blight,Early Blight,0.9988210797309875,3
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB095.jpg,Late Blight,Early Blight,0.9185455441474915,4
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB101.jpg,Late Blight,Early Blight,0.9997016787528992,4
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB105.jpg,Late Blight,Early Blight,0.9887186288833618,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB120.jpg,Late Blight,Early Blight,0.9860003590583801,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB147.jpg,Late Blight,Early Blight,0.8010234236717224,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB149.jpg,Late Blight,Early Blight,0.9869652986526489,11
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB150.jpg,Late Blight,Early Blight,0.9856150150299072,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB179.jpg,Late Blight,Early Blight,0.8346807360649109,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB209.jpg,Late Blight,Healthy,0.9880084991455078,3
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TARDIO/IMG_LB219.jpg,Late Blight,Early Blight,0.8733962774276733,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_102748.jpg,Early Blight,Healthy,0.9167494773864746,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_120351.jpg,Early Blight,Healthy,0.9953445792198181,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_120721.jpg,Early Blight,Healthy,0.9953117370605469,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_131052.jpg,Early Blight,Healthy,0.993528425693512,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_144201.jpg,Early Blight,Late Blight,0.9276595115661621,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_144604.jpg,Early Blight,Healthy,0.9999803304672241,3
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_144658.jpg,Early Blight,Healthy,0.998473584651947,3
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_151232.jpg,Early Blight,Late Blight,0.7340869307518005,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/TIZON TEMPRANO/IMG_20260124_155916.jpg,Early Blight,Late Blight,0.8351024389266968,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/HOJAS SANAS/IMG_9170.jpg,Healthy,Early Blight,0.8464592695236206,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/HOJAS SANAS/IMG_9186.jpg,Healthy,Early Blight,0.9315139055252075,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/HOJAS SANAS/IMG_9189.jpg,Healthy,Early Blight,0.9882630705833435,2
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/HOJAS SANAS/IMG_PHL0151.jpg,Healthy,Early Blight,0.7978143692016602,1
+/content/drive/MyDrive/Paper VISAPP 2027 (Modelos)/Imagenes/HOJAS SANAS/IMG_PHL0171.jpg,Healthy,Early Blight,0.4739966094493866,1

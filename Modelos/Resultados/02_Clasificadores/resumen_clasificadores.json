@@ -1,0 +1,143 @@
+{
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "configuracion": {
+    "epocas": 50,
+    "batch": 50,
+    "lr": 0.001,
+    "optimizador": "Adam",
+    "scheduler": "ReduceLROnPlateau(factor=0.5, patience=3)",
+    "mejor_modelo": "menor perdida de validacion",
+    "early_stopping": false,
+    "semilla": 0
+  },
+  "onnx": {
+    "opset": 18,
+    "precision": "FP32",
+    "cuantizacion": "ninguna"
+  },
+  "version_dataset": 17,
+  "tamanos_entrada": {
+    "efficientnet_b2": 288,
+    "efficientnet_b0": 224,
+    "resnet50": 224,
+    "mobilenet_v3_large": 224
+  },
+  "conteo_dataset": {
+    "train": {
+      "Early Blight": 2274,
+      "Healthy": 2295,
+      "Late Blight": 3018,
+      "Total": 7587
+    },
+    "valid": {
+      "Early Blight": 190,
+      "Healthy": 136,
+      "Late Blight": 216,
+      "Total": 542
+    },
+    "test": {
+      "Early Blight": 201,
+      "Healthy": 137,
+      "Late Blight": 204,
+      "Total": 542
+    }
+  },
+  "resultados": [
+    {
+      "modelo": "efficientnet_b2",
+      "entrada": 288,
+      "parametros_M": 7.71,
+      "accuracy": 0.9982,
+      "macro_F1": 0.9984,
+      "matriz": [
+        [
+          200,
+          0,
+          1
+        ],
+        [
+          0,
+          137,
+          0
+        ],
+        [
+          0,
+          0,
+          204
+        ]
+      ]
+    },
+    {
+      "modelo": "efficientnet_b0",
+      "entrada": 224,
+      "parametros_M": 4.01,
+      "accuracy": 0.9945,
+      "macro_F1": 0.9947,
+      "matriz": [
+        [
+          200,
+          1,
+          0
+        ],
+        [
+          0,
+          137,
+          0
+        ],
+        [
+          2,
+          0,
+          202
+        ]
+      ]
+    },
+    {
+      "modelo": "resnet50",
+      "entrada": 224,
+      "parametros_M": 23.51,
+      "accuracy": 0.9908,
+      "macro_F1": 0.991,
+      "matriz": [
+        [
+          198,
+          1,
+          2
+        ],
+        [
+          0,
+          136,
+          1
+        ],
+        [
+          1,
+          0,
+          203
+        ]
+      ]
+    },
+    {
+      "modelo": "mobilenet_v3_large",
+      "entrada": 224,
+      "parametros_M": 4.21,
+      "accuracy": 0.9926,
+      "macro_F1": 0.9926,
+      "matriz": [
+        [
+          199,
+          1,
+          1
+        ],
+        [
+          0,
+          136,
+          1
+        ],
+        [
+          1,
+          0,
+          203
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+,train,valid,test
+Early Blight,2274,190,201
+Healthy,2295,136,137
+Late Blight,3018,216,204
+Total,7587,542,542

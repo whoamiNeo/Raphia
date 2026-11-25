@@ -1,0 +1,5 @@
+modelo,entrada,parametros_M,accuracy,macro_F1
+efficientnet_b2,288,7.71,0.9982,0.9984
+efficientnet_b0,224,4.01,0.9945,0.9947
+resnet50,224,23.51,0.9908,0.991
+mobilenet_v3_large,224,4.21,0.9926,0.9926

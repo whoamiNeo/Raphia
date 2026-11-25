@@ -1,0 +1,104 @@
+{
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "ultralytics": "8.4.214",
+  "configuracion": {
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 16,
+    "optimizer": "auto",
+    "lr0": 0.001,
+    "weight_decay": 0.0005,
+    "patience": 100,
+    "seed": 0,
+    "deterministic": true,
+    "device": 0,
+    "exist_ok": true
+  },
+  "onnx": {
+    "opset": 17,
+    "precision": "FP32",
+    "cuantizacion": "ninguna"
+  },
+  "conteo_dataset": [
+    {
+      "etapa": "train",
+      "imagenes": 6885,
+      "hojas_anotadas": 8161,
+      "imagenes_sin_hojas": 2516
+    },
+    {
+      "etapa": "valid",
+      "imagenes": 492,
+      "hojas_anotadas": 482,
+      "imagenes_sin_hojas": 224
+    },
+    {
+      "etapa": "test",
+      "imagenes": 491,
+      "hojas_anotadas": 507,
+      "imagenes_sin_hojas": 204
+    }
+  ],
+  "comparacion": [
+    {
+      "modelo": "yolov8n",
+      "parametros_M": 3.14,
+      "precision": 0.871,
+      "recall": 0.905,
+      "F1": 0.888,
+      "mAP50": 0.959,
+      "mAP50_95": 0.931,
+      "horas_entrenamiento": 0.41,
+      "cpu_ms": 40.3
+    },
+    {
+      "modelo": "yolov8s",
+      "parametros_M": 11.14,
+      "precision": 0.92,
+      "recall": 0.872,
+      "F1": 0.895,
+      "mAP50": 0.959,
+      "mAP50_95": 0.932,
+      "horas_entrenamiento": 0.42,
+      "cpu_ms": 86.2
+    },
+    {
+      "modelo": "yolov8m",
+      "parametros_M": 25.86,
+      "precision": 0.901,
+      "recall": 0.905,
+      "F1": 0.903,
+      "mAP50": 0.961,
+      "mAP50_95": 0.936,
+      "horas_entrenamiento": 0.53,
+      "cpu_ms": 204.8
+    }
+  ],
+  "validacion_yolov8m": {
+    "precision": 0.882,
+    "recall": 0.875,
+    "mAP50": 0.949
+  },
+  "pytorch_vs_onnx": {
+    "pytorch": [
+      0.8934484456579087,
+      0.8434753844114208,
+      0.9391833732193801
+    ],
+    "onnx": [
+      0.8934510268664431,
+      0.8434982408397935,
+      0.9391678721554245
+    ]
+  },
+  "matriz_conf_050_pred_x_real": [
+    [
+      469,
+      154
+    ],
+    [
+      38,
+      0
+    ]
+  ]
+}

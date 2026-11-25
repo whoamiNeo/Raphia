@@ -1,0 +1,4 @@
+modelo,parametros_M,precision,recall,F1,mAP50,mAP50_95,horas_entrenamiento,cpu_ms
+yolov8n,3.14,0.871,0.905,0.888,0.959,0.931,0.41,40.3
+yolov8s,11.14,0.92,0.872,0.895,0.959,0.932,0.42,86.2
+yolov8m,25.86,0.901,0.905,0.903,0.961,0.936,0.53,204.8

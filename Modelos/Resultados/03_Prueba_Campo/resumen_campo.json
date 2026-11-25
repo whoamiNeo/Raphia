@@ -1,0 +1,139 @@
+{
+  "parametros": {
+    "conf_detector": 0.5,
+    "umbral_enferma": 0.7,
+    "hilos_cpu": 4
+  },
+  "fotos_por_clase": {
+    "Late Blight": 254,
+    "Early Blight": 193,
+    "Healthy": 43
+  },
+  "formatos": {
+    "JPEG": 464,
+    "HEIF": 26
+  },
+  "pipeline_principal": {
+    "aciertos": 455,
+    "total": 490,
+    "accuracy_%": 92.86,
+    "IC95_%": [
+      90.2,
+      94.8
+    ],
+    "balanced_accuracy_%": 91.81,
+    "macro_F1": 0.9028
+  },
+  "por_clase": [
+    {
+      "clase": "Early Blight",
+      "n": 193,
+      "precision": 0.8932,
+      "recall": 0.9534,
+      "F1": 0.9223,
+      "aciertos": 184,
+      "IC95_recall_%": "91.4\u201397.5"
+    },
+    {
+      "clase": "Healthy",
+      "n": 43,
+      "precision": 0.7917,
+      "recall": 0.8837,
+      "F1": 0.8352,
+      "aciertos": 38,
+      "IC95_recall_%": "75.5\u201394.9"
+    },
+    {
+      "clase": "Late Blight",
+      "n": 254,
+      "precision": 0.9873,
+      "recall": 0.9173,
+      "F1": 0.951,
+      "aciertos": 233,
+      "IC95_recall_%": "87.7\u201394.5"
+    }
+  ],
+  "matriz_real_x_pred": [
+    [
+      184,
+      6,
+      3,
+      0
+    ],
+    [
+      5,
+      38,
+      0,
+      0
+    ],
+    [
+      17,
+      4,
+      233,
+      0
+    ]
+  ],
+  "latencia": {
+    "deteccion_ms": 1967.3,
+    "clasificacion_ms": 457.2,
+    "total_ms": 2424.5,
+    "total_p95_ms": 3680.9
+  },
+  "comparacion": {
+    "YOLOv8m + EfficientNet-B2": {
+      "aciertos": 455,
+      "total": 490,
+      "accuracy_%": 92.86,
+      "IC95_%": [
+        90.2,
+        94.8
+      ],
+      "balanced_accuracy_%": 91.81,
+      "macro_F1": 0.9028
+    },
+    "EfficientNet-B2 sin YOLO": {
+      "aciertos": 389,
+      "total": 490,
+      "accuracy_%": 79.39,
+      "IC95_%": [
+        75.6,
+        82.7
+      ],
+      "balanced_accuracy_%": 82.95,
+      "macro_F1": 0.7654
+    },
+    "YOLOv8m + EfficientNet-B0": {
+      "aciertos": 406,
+      "total": 490,
+      "accuracy_%": 82.86,
+      "IC95_%": [
+        79.3,
+        85.9
+      ],
+      "balanced_accuracy_%": 85.11,
+      "macro_F1": 0.7757
+    },
+    "YOLOv8m + ResNet-50": {
+      "aciertos": 427,
+      "total": 490,
+      "accuracy_%": 87.14,
+      "IC95_%": [
+        83.9,
+        89.8
+      ],
+      "balanced_accuracy_%": 90.15,
+      "macro_F1": 0.8542
+    },
+    "YOLOv8m + MobileNetV3-Large": {
+      "aciertos": 458,
+      "total": 490,
+      "accuracy_%": 93.47,
+      "IC95_%": [
+        90.9,
+        95.3
+      ],
+      "balanced_accuracy_%": 91.13,
+      "macro_F1": 0.9156
+    }
+  }
+}
